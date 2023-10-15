@@ -262,7 +262,6 @@ span img {
     flex-direction: column;
     width: auto;
     padding: 0px 54px;
-    
   }
   #container {
     flex-direction: column;
@@ -288,9 +287,7 @@ span img {
     height: 280px;
   }
   #bottom {
-   
     flex-direction: column;
-    
   }
   #projetos img {
     margin-top: 20px;
