@@ -1,0 +1,301 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: black;
+  margin: 0;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  background: radial-gradient(
+    circle,
+    rgba(164, 153, 157, 0.835171568627451) 0%,
+    rgba(7, 5, 13, 1) 100%
+  );
+  width: auto;
+  height: auto;
+  border-radius: 5%;
+  padding: 50px;
+}
+#bottom {
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  width: auto;
+  height: auto;
+  margin: 0;
+}
+header {
+  width: 1100px;
+  height: auto;
+  background: radial-gradient(
+    circle,
+    rgba(164, 153, 157, 0.835171568627451) 0%,
+    rgba(7, 5, 13, 1) 100%
+  );
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 12px;
+  align-items: center;
+  padding: 10px 32px;
+  border-radius: 30px;
+}
+
+header a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: bisque;
+  font-size: 35px;
+  padding: 5px;
+}
+#boxleft {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: auto;
+  gap: 32px;
+}
+#myinformation,
+#links {
+  width: auto;
+  height: auto;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 9px;
+  padding: 25px;
+  background: #22212c;
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    5px 5px 35px 14px rgba(26, 2, 5, 0);
+}
+#myinformation img {
+  width: 180px;
+  height: 180px;
+}
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  margin: 0;
+  color: bisque;
+}
+#myinformation p {
+  font-family: "Noto Color Emoji", sans-serif;
+  font-size: 20px;
+  margin: 0;
+  color: bisque;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 8px;
+}
+nav a,
+#projetos a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  color: bisque;
+  font-size: 20px;
+}
+#studing {
+  width: auto;
+  height: auto;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 50px 100px;
+  background: #22212c;
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    5px 5px 35px 14px rgba(26, 2, 5, 0);
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: bisque;
+  font-family: "Noto Color Emoji", sans-serif;
+  font-size: 30px;
+  margin: 0;
+}
+#studing img {
+  width: 40px;
+  height: 40px;
+}
+#summary {
+  width: 300px;
+  height: 300px;
+  border-radius: 25px;
+  background: #22212c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    5px 5px 35px 14px rgba(26, 2, 5, 0);
+}
+#summary p {
+  color: bisque;
+  font-family: "Noto Color Emoji", sans-serif;
+  text-align: justify;
+  font-size: 18px;
+  margin: 0;
+  overflow: hidden;
+}
+#boxright {
+ 
+  width: auto; 
+  height: auto; 
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: auto;
+  gap: 32px;
+  margin-left: 35px;
+}
+#projetos {
+  width: 700px;
+  height: auto;
+  display: flex;
+  border-radius: 25px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px;
+  gap: 32px;
+  background: #22212c;
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    5px 5px 35px 14px rgba(26, 2, 5, 0);
+}
+#projetos p {
+  color: bisque;
+  font-family: "Noto Color Emoji", sans-serif;
+  text-align: justify;
+  font-size: 20px;
+}
+span img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: auto;
+}
+#models {
+  width: 700px;
+  height: auto;
+  border-radius: 25px;
+  background: #22212c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+  align-items: center;
+  padding: 32px;
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    5px 5px 35px 14px rgba(26, 2, 5, 0);
+}
+#boxImagem,
+#boxImagem1 {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+  padding: 20px;
+}
+#models img {
+  width: 150px;
+  height: 150px;
+}
+#meta {
+  width: 700px;
+  height: 400px;
+  border-radius: 25px;
+  background: #22212c;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+  align-items: center;
+  padding: 32px;
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    5px 5px 35px 14px rgba(26, 2, 5, 0);
+}
+#meta p {
+  color: bisque;
+  font-family: "Noto Color Emoji", sans-serif;
+  text-align: justify;
+  font-size: 25px;
+}
+@media only screen and (max-width: 1350px) and (min-width: 300px) {
+  body {
+    margin: 0;
+  }
+  header {
+    margin-top: 0;
+    flex-direction: column;
+    width: auto;
+    padding: 0px 54px;
+    
+  }
+  #container {
+    flex-direction: column;
+    margin-top: auto;
+  }
+  #projetos,
+  #models,
+  #meta {
+    width: 280px;
+    height: auto;
+  }
+  #boxImagem,
+  #boxImagem1 {
+    flex-direction: column;
+    padding: 0px 60px;
+  }
+  #meta p,
+  #projetos p {
+    text-align: initial;
+  }
+  #models img {
+    width: 280px;
+    height: 280px;
+  }
+  #bottom {
+   
+    flex-direction: column;
+    
+  }
+  #projetos img {
+    margin-top: 20px;
+  }
+  #boxright {
+    margin: 0;
+  }
+}
