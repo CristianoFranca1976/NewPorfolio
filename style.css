@@ -254,6 +254,10 @@ span img {
   text-align: justify;
   font-size: 25px;
 }
+iframe {
+  height: 48px;
+  width: 48px;
+}
 @media only screen and (max-width: 1350px) and (min-width: 300px) {
   body {
     margin: 0;
